@@ -11,7 +11,7 @@ const Detail = () => {
       .then((res) => res.json())
       .then((fetchData) => setData(fetchData))
       .catch((err) => console.log("Fehlerbeim Laden der API", err));
-  });
+  }, []);
 
   const { id } = useParams();
   useEffect(() => {
