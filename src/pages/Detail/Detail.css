@@ -1,0 +1,43 @@
+.detail a {
+  margin-bottom: 3vw;
+}
+
+.detail {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.328);
+}
+
+.detail-product {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 1vw;
+  padding-bottom: 4.5vw;
+}
+
+.detail-img {
+  width: 35vw;
+  height: 35vw;
+  background-color: white;
+  border-radius: 10px;
+  margin-bottom: 2vw;
+}
+
+.detail-img img {
+  width: 100%;
+  height: 100%;
+  scale: 0.6;
+  transition: 0.8s;
+}
+.detail-img img:hover {
+  scale: 0.8;
+}
+
+.disc {
+  width: 50vw;
+}
