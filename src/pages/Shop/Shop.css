@@ -7,6 +7,10 @@
   padding-top: 1vw;
 }
 
+.shop h4 {
+  width: 30vw;
+}
+
 .product-wrapper {
   display: grid;
   align-items: center;
@@ -23,6 +27,19 @@
   width: 45vw;
   height: 35vw;
   gap: 0.5vw;
+}
+
+.product a {
+  padding: 0.5vw 1vw;
+  background-color: rgba(0, 0, 0, 0.131);
+  border-radius: 10px;
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.product a:hover {
+  scale: 1.1;
 }
 
 .img-box {

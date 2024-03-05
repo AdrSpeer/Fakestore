@@ -20,7 +20,7 @@ const Shop = () => {
               <div className="img-box">
                 <img src={item.image} alt={item.title} />
               </div>
-              <h6>{item.title}</h6>
+              <h4>{item.title}</h4>
               <p>{item.price.toFixed(2)}€</p>
               <Link to={`/detail/${item.id}`}>Show more</Link>
             </div>
